@@ -1,0 +1,59 @@
+1. firsrpro -->firstapp
+2. secondpro -->secondapp
+3. thirdpro (sunnyjobspro)-->jobapp
+4. multiapppro-->firstapp,secondapp,
+5. basepro-->testapp
+6. templatepro-->templatetestapp
+7. luckypro(sunnypro)-->testapp
+8. applevelurlspro-->testapp
+9. templatepro2-->testapp
+10. astrologypro-->testapp
+11. staticfilepro-->testapp
+12. luckynewspro--> testapp
+13. modelpro -->testapp 
+14. modelpro2 -->testapp
+15. modelpro3 --> testapp 
+16. modelpro4 --> testapp [error at generating seed data ]
+17. sunnyjobs(luckyjobs) --> testapp
+18. feedbackform --> testapp
+19. studentform --> testapp
+20. ModelFormPro -->testapp(create another) apr 16
+21. pagecountpro -->testapp
+22. sessionproject2 -->testapp
+23. sessionproject3 -->testapp*(in process stops at output())
+24. sessionproject4 -->testapp
+25. sessionproject5 -->testapp
+26. sessionproject6 -->testapp
+27. authproject -->testapp(on process at apr 24 stops at super user)
+28. advancetemplatepro --> testapp
+29. filterproject -->testapp(stops at edn of apr 15)
+30. 
+31.
+
+*pending pro--->modelpro4,forms, authproject,filterproject(apr 15),pagecountproject(apr 16)
+
+RestAPI pro's
+1.withoutrestpro -->testapp(in process)
+2. withrestc1 -->testapp(stops at may 24 test.py update)
+3. withrestc2 -->testapp
+4. withrestc3 -->testapp
+5. withrestc4 -->testapp( stops at getting api in cmd through username & psw may 29)
+6. pagination -->testapp
+pending = withoutrestmodel,
+
+
+
+
+git reposetry details
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/veeresh-vla/django.git
+git push -u origin main
+
+git remote add origin https://github.com/veeresh-vla/django.git
+git branch -M main
+git push -u origin main
+

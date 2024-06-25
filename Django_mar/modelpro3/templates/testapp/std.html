@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/std1.css' %}">
+</head>
+<body>
+    <h1><u>Student Information</h1></u>
+ {% if student_list %}
+ {% for student in student_list%}
+ <h2><u><i>{{student.name}} Information</h2></u></i>
+ <ul>
+ <li>Student Rollno:{{student.rollno}}</li>
+ <li>Student Name:{{student.name }}</li>
+ <li>Student DOB:{{student.dob}}</li>
+ <li>Student Marks:{{student.marks}}</li>
+ <li>Student Email:{{student.email}}</li>
+ <li>Student Phone Number:{{student.phonenumber}}</li>
+ <li>Student Address:{{student.address}}</li>
+ </ul>
+ <br>
+ {% endfor %}
+ {% else %}
+ <p>No records found in the database</p>
+ {% endif %}
+</body>
+</html>

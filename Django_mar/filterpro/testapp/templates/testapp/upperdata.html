@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for record in records%}
+    <h1>{{record.name}} Information</h1>
+    <ul>
+        <li>Name:{{record.name | upper}}</li>
+        <li>Subject:{{record.subject | lower}}</li>
+        <li>Dept:{{record.dept | title}}</li>
+        <li>Date:{{record.date | date:"d-m-Y"}}</li>
+    </ul><hr>
+    {% endfor %}
+</body>
+</html>

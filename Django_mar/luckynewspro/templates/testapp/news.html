@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <link rel="stylesheet" href="{% static 'css/demo.css'%}">
+</head>
+<body>
+    <h1>{{head_msg}}</h1>
+    <ui>
+        <li>{{sub_msg1}}</li>
+        <li>{{sub_msg2}}</li>
+        <li>{{sub_msg3}}</li>
+    </ui>
+{% if type == 'movies' %}
+        <img src="{% static 'images/1.jpeg' %}" alt="">&nbsp&nbsp&nbsp
+        <img src="{% static 'images/2.jpeg' %}" alt="">&nbsp&nbsp&nbsp
+        <img src="{% static 'images/3.jpeg' %}" alt="">
+ {% elif type == 'sports' %}
+        <img src="{% static 'images/4.jpeg' %}" alt="">&nbsp&nbsp&nbsp
+        <img src="{% static 'images/5.jpeg' %}" alt="">&nbsp&nbsp&nbsp
+        <img src="{% static 'images/6.jpeg' %}" alt="">
+ {% elif type == 'politics' %}
+        <img src="{% static 'images/7.jpeg' %}" alt="">&nbsp&nbsp&nbsp
+        <img src="{% static 'images/8.jpeg' %}" alt="">&nbsp&nbsp&nbsp
+        <img src="{% static 'images/9.jpeg' %}" alt="">
+ {% endif %}
+</body>
+</html>
