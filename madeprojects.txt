@@ -13,7 +13,7 @@
 13. modelpro -->testapp 
 14. modelpro2 -->testapp
 15. modelpro3 --> testapp 
-16. modelpro4 --> testapp [error at generating seed data ]
+16. modelpro4 --> testapp [again start from staring ]
 17. sunnyjobs(luckyjobs) --> testapp
 18. feedbackform --> testapp
 19. studentform --> testapp
