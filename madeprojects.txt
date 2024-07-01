@@ -26,11 +26,11 @@
 26. sessionproject6 -->testapp
 27. authproject -->testapp(on process at apr 24 stops at super user)
 28. advancetemplatepro --> testapp
-29. filterproject -->testapp(stops at edn of apr 15)
+29. filterproject -->testapp(all good  but o/p is doubt)
 30. 
 31.
 
-*pending pro--->modelpro4,forms, authproject,filterproject(apr 15),pagecountproject(apr 16)
+*pending pro--->forms, authproject
 
 RestAPI pro's
 1.withoutrestpro -->testapp(in process)
