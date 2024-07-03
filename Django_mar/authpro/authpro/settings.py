@@ -20,7 +20,7 @@ TEMPLATES_DIR=BASE_DIR/'templates'
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-rhlh9(jzy&_#ilin76%^k(ecp#=h7!hdvpye$im+*-tra1dn*c'
+SECRET_KEY = 'django-insecure-jg=8c$k!)y7_42%wmnr(8p&40ml()9!)t4#)(ke@#v&x#jjy9u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -71,10 +71,12 @@ TEMPLATES = [
 WSGI_APPLICATION = 'authpro.wsgi.application'
 
 LOGIN_REDIRECT_URL = '/'
-
+LOGOUT_REDIRECT_URL = '/logout'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+
+
 
 DATABASES = {
     'default': {
