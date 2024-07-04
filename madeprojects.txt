@@ -24,13 +24,13 @@
 24. sessionproject4 -->testapp
 25. sessionproject5 -->testapp
 26. sessionproject6 -->testapp
-27. authproject -->testapp(on process at apr 24 stops at super user)
+27. authproject -->testapp(getting error at logout button)
 28. advancetemplatepro --> testapp
 29. filterproject -->testapp(all good  but o/p is doubt)
-30. 
+30. modelformpro -->testapp(error in forms.py,css file not showing)
 31.
 
-*pending pro--->forms, authproject
+*pending pro--->moviespro(apr 12)
 
 RestAPI pro's
 1.withoutrestpro -->testapp(in process)

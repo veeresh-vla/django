@@ -3,11 +3,11 @@
 {% block body_block%}
 <div class="jumbotron">
     <div class="container" align='center'>
-        <h1>Please Login To Write Exams....</h1>
+        <h1>Please Login To Write Exams....</h1><br>
         <form method="post">
         {{form.as_p}}
         {% csrf_token %}
-        <input type="submit" name="" value="Login">
+        <input  class="btn btn-info" type="submit" name="" value="Login">
         </form>
     </div>
 </div>
