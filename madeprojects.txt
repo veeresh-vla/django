@@ -28,9 +28,9 @@
 28. advancetemplatepro --> testapp
 29. filterproject -->testapp(all good  but o/p is doubt)
 30. modelformpro -->testapp(error in forms.py,css file not showing)
-31.
+31.moviespro -->testapp
 
-*pending pro--->moviespro(apr 12)
+*pending pro--->
 
 RestAPI pro's
 1.withoutrestpro -->testapp(in process)
