@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABKS</title>
+</head>
+<body>
+    <div class="container">
+    <h1>All Books Information from customized template file</h1>
+    {% for book in books %}
+    <ul>
+    <li>Title:<strong>{{book.title}}</strong></li>
+    <li>Author:<strong>{{book.author}}</strong></li>
+    <li>Pages:<strong>{{book.pages}}</strong></li>
+    <li>Price:<strong>{{book.price}}</strong></li>
+    </ul>
+    <hr>
+    {% endfor %}
+    </div>
+</body>
+</html>
