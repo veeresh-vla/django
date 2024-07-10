@@ -33,9 +33,10 @@
 33.ormpro1 -->testapp
 34.middlewarepro1 -->testapp
 35.cbvpro -->testapp(max all done few are not working)
-36.cbvpro -->>testapp
-37.ormpro -->>testapp
-38.middlewarepro-->>testapp
+36.cbvpro2 -->testapp
+37.cbvpro3 -->testapp(mx all done but some buttons not working)
+38.ormpro -->testapp
+39.middlewarepro-->testapp
 
 not find in material
 29. staticfilepro-->testapp

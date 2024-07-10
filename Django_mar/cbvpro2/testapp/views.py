@@ -4,11 +4,13 @@ from testapp.models import Book
 
 # Create your views here.
 
+#ListView1
 class BookListView(ListView):
     model = Book
     template_name = 'testapp/book_list1.html'
     context_object_name = 'books'
 
+#ListView2
 class BookListView2(ListView):
     model = Book
     template_name = 'testapp/book_list2.html'
@@ -21,6 +23,8 @@ class BookDetailsView(DetailView):
 #CreateBook
 class BookCreateView(CreateView):
     model = Book
+    fields = ('title','author','pages','price')
+
 
 #UpdateView
 class BookUpdateView(UpdateView):
