@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<title>E List</title>
+<style>
+    body{
+        background-color: white;
+        text-align: start;
+        border-radius: 10px;
+       border-color: brown;
+       width: 1100px;
+       font-weight: bolder;
+    }
+    h1{
+        color: rgb(113, 240, 113);
+        text-align: center;
+    } 
+    div{
+        display:grid;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+{% extends 'testapp/base.html' %}
+{% block body_block %}
+<div>
+<h1><u>Employee Information DashBoard</h1></u>
+<table border="3">
+ <thead>
+ <th>Employee Number</th>
+ <th>Employee Name</th>
+ <th>Employee Salary</th>
+ <th>Employee Address</th>
+ </thead>
+ {% for emp in emp_list %}
+ <tr>
+ <td>{{emp.eno}}</td>
+ <td>{{emp.ename}}</td>
+ <td>{{emp.esal}}</td>
+ <td>{{emp.eaddr}}</td>
+ </tr>
+ {% endfor %}
+</table>
+</div>
+{% endblock %}

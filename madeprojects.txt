@@ -35,7 +35,7 @@
 35.cbvpro -->testapp(max all done few are not working)
 36.cbvpro2 -->testapp
 37.cbvpro3 -->testapp(mx all done but some buttons not working)
-38.ormpro -->testapp
+38.ormpro1 -->testapp
 39.middlewarepro-->testapp
 
 not find in material
@@ -43,7 +43,7 @@ not find in material
 30. luckynewspro--> testapp
 31. studentform --> testapp
 
-*pending pro--->   cbvproject3(apr 30), ormproject1(may 1),middlewareproject1(may 4)
+*pending pro--->middlewareproject1(may 4)
 
 RestAPI pro's
 1.withoutrestpro -->testapp(in process)(may 14)
