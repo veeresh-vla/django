@@ -12,11 +12,11 @@
 12. modelpro2 -->testapp
 13. modelpro3 --> testapp 
 14. modelpro4 --> testapp
-15. sunnyjobs(luckyjobs) --> testapp
-16. feedbackform --> testapp
+15. sunnyjobs(luckyjobs) -->testapp
+16. feedbackform -->testapp
 17. ModelFormPro -->testapp(create another) apr 16
 18. modelformpro -->testapp(error in forms.py,css file not showing)
-19.moviespro -->testapp
+19. moviespro -->testapp
 20. advancetemplatepro --> testapp
 21. filterproject -->testapp(all good  but o/p is doubt)
 22. pagecountpro -->testapp
@@ -27,26 +27,27 @@
 27. sessionproject6 -->testapp
 28. authproject -->testapp(getting error at logout button)
 29. fbvcrudproject -->testapp(max all done populate not working,error is showing)
-30.cbvpro -->testapp
-31.cbvpro2 -->testapp
-32.cbvpro3 -->testapp
-33.ormpro1 -->testapp
-34.middlewarepro1 -->testapp
-35.cbvpro -->testapp(max all done few are not working)
-36.cbvpro2 -->testapp
-37.cbvpro3 -->testapp(mx all done but some buttons not working)
-38.ormpro1 -->testapp
-39.middlewarepro1-->testapp
-40.middlewarepro2-->testapp
-41.middlewarepro3-->testapp
-42.middlewarepro4-->testapp
+30. cbvpro -->testapp
+31. cbvpro2 -->testapp
+32. cbvpro3 -->testapp
+33. ormpro1 -->testapp
+34. middlewarepro1 -->testapp
+35. cbvpro -->testapp(max all done few are not working)
+36. cbvpro2 -->testapp
+37. cbvpro3 -->testapp(mx all done but some buttons not working)
+38. ormpro1 -->testapp
+39. middlewarepro1-->testapp
+40. middlewarepro2-->testapp
+41. middlewarepro3-->testapp
+42. middlewarepro4-->testapp
+43. mipro1-->testapp
 
 not find in material
 29. staticfilepro-->testapp
 30. luckynewspro--> testapp
 31. studentform --> testapp
 
-*pending pro--->middlewareproject1(may 4), miproject1(may 6)
+*pending pro--->miproject1(may l6)
 
 RestAPI pro's
 1.withoutrestpro -->testapp(in process)(may 14)
