@@ -40,7 +40,7 @@
 40. middlewarepro2-->testapp
 41. middlewarepro3-->testapp
 42. middlewarepro4-->testapp
-43. mipro1-->testapp
+43. mipro1-->testapp(struck at Multi table inheritance:)
 
 not find in material
 29. staticfilepro-->testapp
